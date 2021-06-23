@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_viewmorebtns",
+  "info": {
+    "name": "viewmorebtn",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "viewbtn": {
+      "type": "string"
+    },
+    "viewicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

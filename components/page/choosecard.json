@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_page_choosecards",
+  "info": {
+    "name": "choosecard",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "chooseicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "choosecardtitle": {
+      "type": "string"
+    },
+    "choosecontent": {
+      "type": "richtext"
+    },
+    "choosebtn": {
+      "type": "string"
+    },
+    "choosebtnicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

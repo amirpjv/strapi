@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_carditems",
+  "info": {
+    "name": "carditem",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "cardtitle": {
+      "type": "string"
+    },
+    "cardcontent": {
+      "type": "richtext"
+    },
+    "cardbtn": {
+      "type": "string"
+    },
+    "cardbtnicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

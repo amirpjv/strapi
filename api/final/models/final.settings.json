@@ -1,0 +1,326 @@
+{
+  "kind": "singleType",
+  "collectionName": "finals",
+  "info": {
+    "name": "final"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headtitle": {
+      "type": "string"
+    },
+    "headphoneicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "headbarcodeicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "headmailicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "headchaticon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "headslidtitle": {
+      "type": "string"
+    },
+    "headslideprev": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "headslider": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "headslidnext": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "headsliddiscript": {
+      "type": "string"
+    },
+    "headslidorderbtn": {
+      "type": "string"
+    },
+    "headslidordericon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "abouttitle": {
+      "type": "string"
+    },
+    "carditem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.carditem"
+    },
+    "aboutimg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "servicetitle": {
+      "type": "string"
+    },
+    "ourservicetitle": {
+      "type": "string"
+    },
+    "serviceimg": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "viewmorebtn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.viewmorebtn"
+    },
+    "deal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.deal"
+    },
+    "cardservice": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card"
+    },
+    "offertitle": {
+      "type": "string"
+    },
+    "producttitle": {
+      "type": "string"
+    },
+    "cardproduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card"
+    },
+    "productimg": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "productview": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.viewmorebtn"
+    },
+    "dealproduct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.deal"
+    },
+    "membertitle": {
+      "type": "string"
+    },
+    "cardmember": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card"
+    },
+    "membercardtitle": {
+      "type": "string"
+    },
+    "membertextcontent": {
+      "type": "richtext"
+    },
+    "membercardbtn": {
+      "type": "string"
+    },
+    "memberimg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "trusttitle": {
+      "type": "string"
+    },
+    "trusticon1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "trusticon2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "trusticon3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "trusticon4": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "trustimgslider": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "trustcard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.card"
+    },
+    "choosetitle": {
+      "type": "string"
+    },
+    "chooseimg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "choosecard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.choosecard"
+    }
+  }
+}

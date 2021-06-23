@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_deals",
+  "info": {
+    "name": "deal",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "dealtitle": {
+      "type": "string"
+    },
+    "dealcontent": {
+      "type": "richtext"
+    },
+    "dealdescript": {
+      "type": "string"
+    },
+    "dealbtn": {
+      "type": "string"
+    }
+  }
+}

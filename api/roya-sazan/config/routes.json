@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/roya-sazan",
+      "handler": "roya-sazan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/roya-sazan",
+      "handler": "roya-sazan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/roya-sazan",
+      "handler": "roya-sazan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

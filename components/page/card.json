@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_cards",
+  "info": {
+    "name": "card",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "cardtitle": {
+      "type": "string"
+    },
+    "cardtextarea": {
+      "type": "richtext"
+    },
+    "cardbtn": {
+      "type": "string"
+    },
+    "cardicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

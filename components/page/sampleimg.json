@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_page_sampleimgs",
+  "info": {
+    "name": "sampleimg",
+    "icon": "eye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sampleimg": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "samplebtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    },
+    "sampletitle": {
+      "type": "string"
+    },
+    "sampleareatext": {
+      "type": "richtext"
+    },
+    "sampledescription": {
+      "type": "string"
+    },
+    "samplebtncontact": {
+      "type": "string"
+    },
+    "cardservice": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.card"
+    }
+  }
+}

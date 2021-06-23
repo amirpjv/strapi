@@ -1,0 +1,148 @@
+{
+  "kind": "singleType",
+  "collectionName": "roya_sazans",
+  "info": {
+    "name": "roya-sazan",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.slider"
+    },
+    "whoarewe": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.cardtitle"
+    },
+    "whatweserve": {
+      "type": "string"
+    },
+    "ourservices": {
+      "type": "string"
+    },
+    "sampleimg": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.sampleimg"
+    },
+    "whatweoffer": {
+      "type": "string"
+    },
+    "ourproducts": {
+      "type": "string"
+    },
+    "prodcard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.card"
+    },
+    "prodsampleimg": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.sampleimg"
+    },
+    "titlemember": {
+      "type": "string"
+    },
+    "member": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.card"
+    },
+    "membercard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.card"
+    },
+    "memberimg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "trust": {
+      "type": "string"
+    },
+    "trusticons": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "trustimg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "trustcard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.card"
+    },
+    "whychoose": {
+      "type": "string"
+    },
+    "imgchoose": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "imgcard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.imgcard"
+    }
+  }
+}

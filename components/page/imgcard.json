@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_page_imgcards",
+  "info": {
+    "name": "imgcard",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "iconcard": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "cardtitle": {
+      "type": "string"
+    },
+    "cardtextarea": {
+      "type": "richtext"
+    },
+    "cardbtn": {
+      "type": "string"
+    },
+    "cardicon": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

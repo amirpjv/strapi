@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "name": "button",
+    "icon": "window-close",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "btnslide": {
+      "type": "string"
+    },
+    "iconslide": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_cardtitles",
+  "info": {
+    "name": "cardtitle",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "cardtitle": {
+      "type": "string"
+    },
+    "textarea": {
+      "type": "richtext"
+    },
+    "btncard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button"
+    },
+    "imgcard": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
